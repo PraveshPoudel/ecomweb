@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevStore Online</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="myimages/devstorelogo.png" width="125px">
+                </div>
+                <nav>
+                    <ul id="menuitems">
+                        <li> <a href="" id="active">Home</a> </li>
+                        <li> <a href="" id="inactive">Products</a> </li>
+                        <li> <a href="" id="inactive">About</a> </li>
+                        <li> <a href="" id="inactive">Contact</a> </li>
+                        <li> <a href="" id="inactive">Account</a> </li>
+                    </ul>
+                </nav>
+                <img src="myimages/cart.png" width="30px" height="30px">
+                <img src="myimages/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+            <div class="row">
+                <div class="col-1" id="demo">
+                    <h1>All You Want<br>Is Available Here </h1>
+                    <P>The Ultimate E-commerce Junction. Find what you want. <br>Get what you want. We are here for you.</P>
+                    <a href="" class="btn">Visit Store &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <img src="myimages/homeback7.png" class="check">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Featured section starts from here (just three pics inserted here). -->
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="myimages/playstation1.jpg">
+                </div>
+                <div class="col-3">
+                    <img src="myimages/xbox7.jpg">
+                </div>
+                <div class="col-3">
+                    <img src="myimages/nintendo5.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Featured product and the latest product inside the 'small-container' class, starts here -->
+    <div class="small-container">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="myimages/featured444.jpg">
+                <h4>Play Station Five</h4>
+                <p>$499.99</p>
+            </div>
+            <div class="col-4">
+                <img src="myimages/featured2.jpg">
+                <h4>XBOX ONE S</h4>
+                <p>$469.99</p>
+            </div>
+            <div class="col-4">
+                <img src="myimages/featured3.jpg">
+                <h4>Nintendo Switch 1.1</h4>
+                <p>$299.99</p>
+            </div>
+            <div class="col-4">
+                <img src="myimages/featured1.jpg">
+                <h4>Play Station Four</h4>
+                <p>$399.99</p>
+            </div>
+        </div>
+
+        <!--Latest Product inside small container starts from here -->
+        <h2 class="title">Latest Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="myimages/latest1.jpg">
+                <h4>Roadster Blue Wireless</h4>
+                <p>$35.99</p>
+            </div>
+            <div class="col-4">
+                <img src="myimages/latest2.jpg">
+                <h4>Huawei P30 Pro</h4>
+                <p>$222.99</p>
+            </div>
+            <div class="col-4">
+                <img src="myimages/latest33.jpg">
+                <h4>Vivo S1 Pro</h4>
+                <p>$244.99</p>
+            </div>
+            <div class="col-4">
+                <img src="myimages/latest4.jpg">
+                <h4>Asus VivoBook S530UA</h4>
+                <p>449.99</p>
+            </div>
+        </div>
+
+        <!--The next row inside latest product starts from here -->
+        <div class="row">
+            <div class="col-4">
+                <img src="myimages/latest555.jpeg">
+                <h4>Mac Book Pro</h4>
+                <p>$999.99</p>
+            </div>
+            <div class="col-4">
+                <img src="myimages/latest66.jpg">
+                <h4>TCL 169.9cm 4K</h4>
+                <p>$199.99</p>
+            </div>
+            <div class="col-4">
+                <img src="myimages/latest77.jpg">
+                <h4>Voltas Air Conditioner</h4>
+                <p>$122.99</p>
+            </div>
+            <div class="col-4">
+                <img src="myimages/latest8.jpg">
+                <h4>Register Comfort Watch</h4>
+                <p>$75.99</p>
+            </div>
+        </div>
+    </div>
+
+    <!--Exclusive Product Starts from here -->
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="myimages/exclusive2.png" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p>Exclusively Available On DevStore.</p>
+                    <h1>iPhone X 512 GB (Black)</h1>
+                    <small>Here is IPhone X featuring a 5.8-inch OLED display,
+                        facial recognition and 3D camera functionality, a glass body,
+                        and an A11 Bionic Processor.</small>
+                    <a href="" class="btn">Grab Now &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Testimonials Section begins from here. -->
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <p>Lorem Ipsum is simply dummy text of the printing
+                        and typesetting industry. Lorem Ipsum has been the
+                        industry's standard dummy text ever </p>
+                    <img src="myimages/putme.jpg">
+                    <h3>Pravesh Poudel</h3>
+                </div>
+                <div class="col-3">
+                    <p>Lorem Ipsum is simply dummy text of the printing
+                        and typesetting industry. Lorem Ipsum has been the
+                        industry's standard dummy text ever </p>
+                    <img src="myimages/donald.jpg">
+                    <h3>Donald Trump</h3>
+                </div>
+                <div class="col-3">
+                    <p>Lorem Ipsum is simply dummy text of the printing
+                        and typesetting industry. Lorem Ipsum has been the
+                        industry's standard dummy text ever </p>
+                    <img src="myimages/girl.png">
+                    <h3>Rashmika Mandanna</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Trusted Brand Logo is added here -->
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="myimages/brand1.png">
+                </div>
+                <div class="col-5">
+                    <img src="myimages/brand2.png">
+                </div>
+                <div class="col-5">
+                    <img src="myimages/brand3.png">
+                </div>
+                <div class="col-5">
+                    <img src="myimages/brand4.png">
+                </div>
+                <div class="col-5">
+                    <img src="myimages/brand5.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer Section begins from here -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download our App for Android and ios.</p>
+                    <div class="app-logo">
+                        <img src="myimages/playstore.png">
+                        <img src="myimages/appstore.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="myimages/devstorelogo.png">
+                    <p>Our mission is to continually raise the bar of the customer
+                        experience by using the technology.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Terms and Conditions</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Twitter</li>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+
+            <hr>
+            <p class="copyright">Copyright &copy; Pravesh Poudel, 2021</p>
+            <div class="footerBottom">
+                <p> Design By: <span style="color: #8a8a8a">@Pravesh Poudel</span>
+                    <a href="https://facebook.com/praveshpaudel.96"> <img src="myimages/fb16.png" alt="Image loading failed.">
+                        <a href="https://www.instagram.com/prawes_p5/"> <img src="myimages/insta16x16.png" alt="Image loading failed.">
+                            <a href="https://np.linkedin.com/in/praveshpoudel"> <img src="myimages/linkdin16x16.png" alt="Image loading failed.">
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!--JavaScript written for the menu icon(onclick 'menutoggle()' functionality) -->
+    <script>
+        var menuitems = document.getElementById("menuitems");
+        menuitems.style.maxHeight = "0px";
+
+        function menutoggle()
+        {
+            if(menuitems.style.maxHeight == "0px")
+            {
+                menuitems.style.maxHeight = "200px";
+            }
+            else
+            {
+                menuitems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+</body>
+</html>
